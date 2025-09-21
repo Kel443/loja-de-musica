@@ -1,0 +1,144 @@
+html, body {
+  background-color:hsl(225, 100%, 94%);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-right: 20vw;
+  margin-top: 10vh;
+}
+
+/** Cor de fundo **/
+main{
+  width: 0vw;
+  height: 0vh;
+}
+/** Imagem de fundo **/
+img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+/** Container principal **/
+#container {
+  background-color: white;
+  width: 26.9vw;
+  height: 93dvh;
+  border-radius: 1em;
+  margin-top: 8vh;
+  box-shadow: 0px 20px 20px 0px hsla(225, 79%, 60%, 0.212);
+}
+#imghero {
+  width: 26.9vw;
+  height: 30vh;
+  margin-left: 39.4vw;
+  margin-top: 16vh;
+  border-radius: 1em 1em 0em 0em;
+  z-index: 1;
+}
+#container2 {
+  background-color:hsla(223, 49%, 90%, 0.363);
+  width: 22vw;
+  height: 15dvh;
+  margin-top: -3vh;
+  border-radius: 9px;
+}
+/** Textos e botões **/
+#text1 {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 34vh;
+}
+/* Texto descritivo */
+#text2 {
+  color: hsl(210, 1%, 51%);
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 1vw;
+  text-align: center;
+  padding: 5%;
+}
+#icon-music {
+ width: 2.9vw;
+ height: 6vh;
+ margin-left: 93vh;
+ margin-top: 73.5vh; 
+ z-index: 1;
+}
+/* Plano anual e link "change" */
+#text3 {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 1.1vw;
+  font-weight: 800;
+  text-align: center;
+  padding-top: 3vh;
+  margin-left: -8vh;
+}
+/* Link "change" */
+.link {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 1vw;
+  font-weight: 600;
+  margin-left: 19.4vw;
+  padding: 1vh;
+  color: hsl(245, 75%, 52%);
+  text-decoration: underline;
+}
+.link:hover {
+  color: hsl(224, 23%, 55%);
+  cursor:pointer ;
+  text-decoration: none;
+}
+/* Preço do plano */
+#text4 {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 1.3vw;
+  font-weight: 500;
+  text-align: center;
+  margin-top: -3vh;
+  margin-left: -9vh;
+  color: hsl(210, 1%, 51%);
+}
+/* Botão "Proceed to Payment" */
+#button1 {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 1.2vw;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 8vh;
+  margin-left: -1vw;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  width: 22vw;
+  height: 7vh;
+  box-shadow: 0px 20px 9px hsla(245, 37%, 88%, 0.678);
+}
+#button1:hover {
+  background-color: hsl(224, 23%, 55%);
+  cursor:pointer ;
+}
+/* Botão "Cancel Order" */
+#button2 {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 1vw;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 3vh;
+  margin-left: -1vw;
+  background-color: transparent;
+  color: hsl(210, 1%, 51%);
+  border: none;
+  width: 47.3vh;
+  height: 5vh;
+  margin-bottom: 15vh;
+}
+#button2:hover {
+  color: hsl(240, 67%, 1%);
+  cursor:pointer ;
+}
+
